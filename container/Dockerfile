@@ -72,8 +72,8 @@ RUN sudo -u www-data -H git submodule init ; \
     sudo -u www-data -H git submodule update
 
 RUN sudo pip3 install jsonschema ; \
-    sudo pip3 install reportlab ; \
-    sudo pip3 install pymisp
+    sudo pip3 install pymisp ; \
+    sudo pip3 install reportlab
 
 WORKDIR /var/www/MISP/PyMISP
 RUN python3 setup.py install
