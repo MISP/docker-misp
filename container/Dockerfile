@@ -103,7 +103,7 @@ RUN mkdir /var/www/.composer && chown -R www-data:www-data /var/www/.composer &&
     sudo -u www-data -H php composer.phar require kamisama/cake-resque:4.1.2 && \
     sudo -u www-data -H php composer.phar config vendor-dir Vendor && \
     sudo -u www-data -H php composer.phar install && \
-    sudo phpenmod redis ; \
+    sudo phpenmod redis && \
     sudo -u www-data -H cp -fa /var/www/MISP/INSTALL/setup/config.php /var/www/MISP/app/Plugin/CakeResque/Config/config.php ; \
     sudo chown -R www-data:www-data /var/www/MISP && \
     sudo chmod -R 750 /var/www/MISP && \
