@@ -53,7 +53,7 @@ cd docker-misp
 ./build.sh
 ```
 
-This will produce an image called: ```harvarditsecurity/docker-misp```
+This will produce an image called: ```harvarditsecurity/misp```
 
 # How to run it in 3 steps:
 
