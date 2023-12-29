@@ -1,3 +1,5 @@
+This project is now archived as there is an official docker MISP project available at [https://github.com/MISP/misp-docker](https://github.com/MISP/misp-docker).
+
 Docker MISP Container
 =====================
 ### Latest Update: 4-14-2020
